@@ -1,22 +1,15 @@
+
 export interface LocationData {
   latitude: number;
   longitude: number;
 }
 
-export interface PlaceSource {
-  uri: string;
-  title: string;
-}
-
 export interface GroundingChunk {
-  web?: {
-    uri: string;
-    title: string;
-  };
   maps?: {
     uri: string;
     title: string;
     phoneNumber?: string;
+    address?: string;
     placeAnswerSources?: {
       reviewSnippets?: {
         content: string;
