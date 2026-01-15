@@ -1,0 +1,8 @@
+{
+  "name": "Copy of DishOut",
+  "description": "AI-powered culinary explorer identifying dishes and locating them nearby using Gemini 2.5 and Google Maps.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
